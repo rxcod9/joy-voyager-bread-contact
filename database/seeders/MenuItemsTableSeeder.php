@@ -1,6 +1,6 @@
 <?php
 
-namespace Joy\VoyagerBreadReplaceKeyword\Database\Seeders;
+namespace Joy\VoyagerBreadContact\Database\Seeders;
 
 use Illuminate\Database\Seeder;
 use TCG\Voyager\Models\Menu;
@@ -21,14 +21,14 @@ class MenuItemsTableSeeder extends Seeder
     
         $menuItem = MenuItem::firstOrNew([
             'menu_id' => $menu->id,
-            'title'   => __('joy-voyager-bread-replace-keyword::seeders.menu_items.replace_keywords'),
+            'title'   => __('joy-voyager-bread-contact::seeders.menu_items.contacts'),
             'url'     => '',
-            'route'   => 'voyager.replace-keywords.index',
+            'route'   => 'voyager.contacts.index',
         ]);
         if (!$menuItem->exists) {
             $menuItem->fill([
                 'target'     => '_self',
-                'icon_class' => 'voyager-bread voyager-bread-replace-keyword',
+                'icon_class' => 'voyager-bread voyager-bread-contact',
                 'color'      => null,
                 'parent_id'  => null,
                 'order'      => $maxOrder++,

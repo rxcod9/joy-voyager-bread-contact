@@ -13,16 +13,16 @@ return [
         'updated_at'  => 'Updated at',
     ],
     'data_types' => [
-        'replace_keyword' => [
-            'singular' => 'ReplaceKeyword',
-            'plural'   => 'ReplaceKeywords',
+        'contact' => [
+            'singular' => 'Contact',
+            'plural'   => 'Contacts',
         ],
     ],
     'menu_items' => [
-        'replace_keywords' => 'ReplaceKeywords',
+        'contacts' => 'Contacts',
     ],
     'settings' => [
-        'replace_keyword' => [
+        'contact' => [
             'key1'  => 'value1',
             'image' => 'Image',
         ],
