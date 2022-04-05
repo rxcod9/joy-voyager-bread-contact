@@ -18,7 +18,7 @@ class DataTypesTableSeeder extends Seeder
                 'name'                  => 'contacts',
                 'display_name_singular' => __('joy-voyager-bread-contact::seeders.data_types.contact.singular'),
                 'display_name_plural'   => __('joy-voyager-bread-contact::seeders.data_types.contact.plural'),
-                'icon'                  => 'voyager-bread',
+                'icon'                  => 'voyager-bread voyager-bread-contact voyager-data',
                 'model_name'            => 'Joy\\VoyagerBreadContact\\Models\\Contact',
                 // 'policy_name'           => 'Joy\\VoyagerBreadContact\\Policies\\ContactPolicy',
                 // 'controller'            => 'Joy\\VoyagerBreadContact\\Http\\Controllers\\VoyagerBreadContactController',
