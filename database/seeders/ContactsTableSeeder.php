@@ -18,7 +18,7 @@ class ContactsTableSeeder extends Seeder
             return false;
         }
 
-        $count = 100;
+        $count = 20;
         Contact::factory()
             ->count($count)
             ->state(function (array $attributes) use ($count) {
